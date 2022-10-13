@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Art Palette</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/4c536a6bd5.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="title">Online Art Palette</h1>
+    </header>
+    <main class="main">
+      <div class="settings">
+        <input id="colorChoose" type="color" value="#ff0000" />
+        <button id="colorButton">Color Mode</button>
+        <button id="rainbowButton">Rainbow Mode</button>
+        <button id="eraseButton">Eraser</button>
+        <button id="clearAllButton">Clear</button>
+        <div id="sizeValue" class="size-value">24 x 24</div>
+        <input id="sizeSlider" type="range" value="" min="1" max="64" />
+      </div>
+      <div id="grid" class="grid"></div>
+    </main>
+    <footer class="footer">
+      <a href="https://github.com/rajveerkhosa" target="_blank">
+        <i class="fab fa-github"></i
+      ></a>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
